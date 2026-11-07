@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>exercice4</title>
+</head>
+<body>
+  
+  <button onclick="function1()">Afficher la valeur du Stock</button>
+
+  <button onclick="function2()">Afficher les Produits</button>
+
+  <button onclick="fonction3()">valeur globale du Stock</button>
+  <br>
+  <br>
+
+  <button onclick="fonction4()">Nombre Totale d'articles </button>
+
+  <button onclick="fonction5('keyboard')">Valeur du stock d'un  produit</button>
+  <button onclick="fonction6((produit)=>{
+    console.log(produit.name)
+  })">Afficher les Produits avec Callback</button>
+  <br>
+  <br>
+
+  <button onclick="fonction7((produit)=>{
+    console.log(produit.price)
+  })">Afficher les prix des Produits avec Callback</button>
+<script src="./script.js"></script>
+
+
+</body>
+
+</html>
